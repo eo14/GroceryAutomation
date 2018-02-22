@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketEntity", "MarketEntity\MarketEntity.csproj", "{F9BD2466-2A47-4324-B779-03A593FA02F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Market_Entity", "Market_Entity", "{28DAF85B-9D45-4667-B8F1-9F4B09851C2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Market_DAL", "Market_DAL", "{9E52FA55-12CE-4BED-94C2-5049122F4B39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Market_BLL", "Market_BLL", "{921F132B-A3D7-4BD1-B415-72C26A2D7BF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Market_UI", "Market_UI", "{80C77346-3DD6-45FD-9A7F-5BC8F8F34E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketBLL", "MarketBLL\MarketBLL.csproj", "{F1498D09-F1DB-496F-9F45-D12ED1BEE89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDAL", "MarketDAL\MarketDAL.csproj", "{7E70E924-0029-4321-80A4-378541AB781A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDEV.WFA", "MarketDEV.WFA\MarketDEV.WFA.csproj", "{65FFAFD7-1E77-413D-B6BE-47B823771225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9BD2466-2A47-4324-B779-03A593FA02F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BD2466-2A47-4324-B779-03A593FA02F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BD2466-2A47-4324-B779-03A593FA02F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BD2466-2A47-4324-B779-03A593FA02F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1498D09-F1DB-496F-9F45-D12ED1BEE89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1498D09-F1DB-496F-9F45-D12ED1BEE89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1498D09-F1DB-496F-9F45-D12ED1BEE89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1498D09-F1DB-496F-9F45-D12ED1BEE89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E70E924-0029-4321-80A4-378541AB781A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E70E924-0029-4321-80A4-378541AB781A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E70E924-0029-4321-80A4-378541AB781A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E70E924-0029-4321-80A4-378541AB781A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FFAFD7-1E77-413D-B6BE-47B823771225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FFAFD7-1E77-413D-B6BE-47B823771225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FFAFD7-1E77-413D-B6BE-47B823771225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FFAFD7-1E77-413D-B6BE-47B823771225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9BD2466-2A47-4324-B779-03A593FA02F8} = {28DAF85B-9D45-4667-B8F1-9F4B09851C2D}
+		{F1498D09-F1DB-496F-9F45-D12ED1BEE89E} = {921F132B-A3D7-4BD1-B415-72C26A2D7BF6}
+		{7E70E924-0029-4321-80A4-378541AB781A} = {9E52FA55-12CE-4BED-94C2-5049122F4B39}
+		{65FFAFD7-1E77-413D-B6BE-47B823771225} = {80C77346-3DD6-45FD-9A7F-5BC8F8F34E05}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040DB989-5235-4A99-8216-49F4D6C5DFE1}
+	EndGlobalSection
+EndGlobal

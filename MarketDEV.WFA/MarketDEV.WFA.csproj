@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65FFAFD7-1E77-413D-B6BE-47B823771225}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarketDEV.WFA</RootNamespace>
+    <AssemblyName>MarketDEV.WFA</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v17.2" />
+    <Reference Include="DevExpress.Charts.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.2" />
+    <Reference Include="DevExpress.DataAccess.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core" />
+    <Reference Include="DevExpress.Utils.v17.2.UI, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDialogs.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2" />
+    <Reference Include="DevExpress.Printing.v17.2.Core" />
+    <Reference Include="DevExpress.XtraGauges.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.2.Extensions, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContainer.Designer.cs">
+      <DependentUpon>FrmContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKategori.Designer.cs">
+      <DependentUpon>FrmKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRapor.Designer.cs">
+      <DependentUpon>FrmRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSatis.Designer.cs">
+      <DependentUpon>FrmSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSiparis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSiparis.Designer.cs">
+      <DependentUpon>FrmSiparis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSiparisOdemesiTamamla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSiparisOdemesiTamamla.Designer.cs">
+      <DependentUpon>FrmSiparisOdemesiTamamla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStok.Designer.cs">
+      <DependentUpon>FrmStok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTedarikci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTedarikci.Designer.cs">
+      <DependentUpon>FrmTedarikci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUrun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUrun.Designer.cs">
+      <DependentUpon>FrmUrun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmSatisTamamla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSatisTamamla.Designer.cs">
+      <DependentUpon>FrmSatisTamamla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportWizard\FisReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportWizard\FisReport.Designer.cs">
+      <DependentUpon>FisReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmContainer.resx">
+      <DependentUpon>FrmContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKategori.resx">
+      <DependentUpon>FrmKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRapor.resx">
+      <DependentUpon>FrmRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSatis.resx">
+      <DependentUpon>FrmSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSiparis.resx">
+      <DependentUpon>FrmSiparis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSiparisOdemesiTamamla.resx">
+      <DependentUpon>FrmSiparisOdemesiTamamla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStok.resx">
+      <DependentUpon>FrmStok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTedarikci.resx">
+      <DependentUpon>FrmTedarikci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUrun.resx">
+      <DependentUpon>FrmUrun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FrmSatisTamamla.resx">
+      <DependentUpon>FrmSatisTamamla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportWizard\FisReport.resx">
+      <DependentUpon>FisReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MarketEntity.Classes.Siparis.datasource" />
+    <None Include="Properties\DataSources\MarketEntity.Classes.SiparisDetayi.datasource" />
+    <None Include="Properties\DataSources\MarketEntity.Classes.Tedarikci.datasource" />
+    <None Include="Properties\DataSources\MarketEntity.Classes.Urun.datasource" />
+    <None Include="Properties\DataSources\MarketEntity.Classes.UrunSatisDetayi.datasource" />
+    <None Include="Properties\DataSources\MarketEntity.Models.SepetModel.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MarketBLL\MarketBLL.csproj">
+      <Project>{f1498d09-f1db-496f-9f45-d12ed1bee89e}</Project>
+      <Name>MarketBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MarketEntity\MarketEntity.csproj">
+      <Project>{f9bd2466-2a47-4324-b779-03a593fa02f8}</Project>
+      <Name>MarketEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
